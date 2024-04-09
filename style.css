@@ -1,0 +1,58 @@
+body {
+        background-color: sienna;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+#game {
+    position: relative;
+    height: 600px;
+    width: 400px;
+    background: url(https://th.bing.com/th/id/OIG3.TMheXTMVWdCQnBczdHpP?pid=ImgGn);
+    background-size: cover;
+    outline: none;
+}
+
+.falling {
+    position: absolute;
+     top: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.box {
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+#score {
+    margin-left: 10px;
+    padding: 15px;
+}
+
+#timer {
+    margin-top: 10px;
+    padding: 15px;
+}
